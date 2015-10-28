@@ -1,6 +1,0 @@
-[submodule "dockerspawner"]
-	path = dockerspawner
-	url = https://github.com/jupyter/dockerspawner.git
-[submodule "jh-google-oauthenticator"]
-	path = jh-google-oauthenticator
-	url = https://github.com/ryanlovett/jh-google-oauthenticator.git
