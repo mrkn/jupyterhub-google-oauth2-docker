@@ -44,5 +44,6 @@ RUN mkdir -p /etc/jupyterhub/ssl && chmod 440 /etc/jupyterhub/ssl
 
 COPY start_jupyterhub /usr/local/bin/
 
-EXPOSE 8000
 WORKDIR /
+EXPOSE 8000
+CMD ["start_jupyterhub", "-f", "/etc/jupyterhub/jupyterhub_config.py"]
